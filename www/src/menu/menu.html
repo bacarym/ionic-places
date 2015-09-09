@@ -1,0 +1,19 @@
+<ion-side-menus>
+
+  	<ion-side-menu side="right">
+		<div class="list">
+			  <div class="item item-divider">
+			    Candy Bars
+			  </div>
+		<button class="button button-outline button-block button-assertive">
+  			Logout
+		</button>
+	</div>
+	</ion-side-menu>
+
+  <ion-side-menu-content>
+  		<ng-include src="'src/header/header.html'" ng-controller="HeaderCtrl"></ng-include>
+  		<ng-include src="'src/tabs/tabs.html'" ng-controller="HeaderCtrl"></ng-include>
+  </ion-side-menu-content>
+
+</ion-side-menus>
