@@ -1,19 +1,23 @@
 <ion-tabs class="tabs-icon-top tabs-color-active-positive">
 
-  <!-- Dashboard Tab -->
-  <ion-tab title="Status" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
-    <ion-nav-view name="tab-dash"></ion-nav-view>
+  <ion-tab title="My place" icon-off="ion-ios-list-outline" icon-on="ion-ios-list-outline" ui-sref="tab.my-place">
+    <ion-nav-view name="tab-my-place"></ion-nav-view>
   </ion-tab>
 
-  <!-- Chats Tab -->
-  <ion-tab title="Chats" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
-    <ion-nav-view name="tab-chats"></ion-nav-view>
+  <ion-tab title="Add place" icon-off="ion-plus-circled" icon-on="ion-plus-circled" ui-sref="tab.add-place">
+    <ion-nav-view name="tab-add-place"></ion-nav-view>
   </ion-tab>
 
-  <!-- Account Tab -->
-  <ion-tab title="Account" icon-off="ion-ios-gear-outline" icon-on="ion-ios-gear" href="#/tab/account">
-    <ion-nav-view name="tab-account"></ion-nav-view>
+  <ion-tab title="Around me" icon-off="ion-map" icon-on="ion-map" ui-sref="tab.around-me">
+    <ion-nav-view name="tab-around-me"></ion-nav-view>
   </ion-tab>
 
+  <ion-tab title="Friends" icon-off="ion-ios-people" icon-on="ion-ios-people" ui-sref="tab.friends">
+    <ion-nav-view name="tab-friends"></ion-nav-view>
+  </ion-tab>
+    
+  <ion-tab title="More" icon-off="ion-more" icon-on="ion-more">
+    <ion-nav-view name="tab-more"></ion-nav-view>
+  </ion-tab>
 
 </ion-tabs>
